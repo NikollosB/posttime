@@ -1,0 +1,69 @@
+.navbarn{
+    height: 64px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.logon{
+    font-family: Roboto;
+    font-size: 32px;
+    color: white;
+}
+.spacen{
+    width: 1000px;
+}
+
+.whon{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iedit, span{
+    color:crimson;
+    margin-left: 10px;
+}
+
+.buttonn {
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    width: 50px;
+    padding: 10px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 10px darkred;
+    border-radius: 4px;
+  }
+  
+  .buttonn:hover {
+    background: #cccccc;
+    color: #000;
+  }
+  
+  .buttonn:after {
+    content: "";
+    background: whitesmoke;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .buttonn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .buttonn:focus { outline:0; }
